@@ -10,7 +10,7 @@ module.exports = {
     // Of course you can also add new values here to query them like usual
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/master/themes/gatsby-theme-cara/gatsby-config.js
     siteTitleAlt: `个人云笔记`,
-    author: `Jun`,
+    author: `Jun Wu`,
   },
   plugins: [
     {
@@ -27,7 +27,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: ``,
+        name: `个人云笔记`,
         short_name: `个人云笔记`,
         description: `个人云笔记`,
         start_url: `/`,
