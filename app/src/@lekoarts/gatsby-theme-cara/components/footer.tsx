@@ -37,12 +37,21 @@ const Footer = () => {
         }}
       >
         {` `}
+        <img src="beian-icon.png"></img>
         <Link
-          aria-label="工业和信息化部备案管理系统网站 苏ICP备2020058677号-1"
+          target="_blank"
+          sx={{ ml: 2 }}
+          aria-label="苏公网安备 32058302002826号"
+          href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=32058302002826"
+        >
+          苏公网安备 32058302002826号
+        </Link>
+        <Link
+          aria-label="苏ICP备2020058677号-1"
           sx={{ ml: 2 }}
           href="http://beian.miit.gov.cn/"
         >
-          工业和信息化部备案管理系统网站 苏ICP备2020058677号-1
+          苏ICP备2020058677号-1
         </Link>
       </Flex>
     </Box>
